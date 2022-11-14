@@ -1,0 +1,114 @@
+body
+{
+	background-image: url(dbackground.jpg);
+	background-size: cover;
+}
+.textbox
+{
+	width: 25%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	margin-top: 20px;
+	margin-left: 50px;
+	border-bottom: 2px solid #6495ED;
+	
+}
+.textbox input
+{
+	border: none;
+	outline: none;
+	background: none;
+	color: black;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin: 0 10px;
+}
+.pres{
+	background: #EEC591;
+	width: 70%;
+	height: 200%;
+	margin-top: 50px;
+	margin-left:50px;
+	color: white;
+	font-size: 18px;
+	padding: 20px;
+	border-radius: 10px;
+}
+label{
+	color: white;
+	font-size: 25px;
+	font-family: cursive;
+}
+#prescription{
+	width: 97%;
+	height: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding:7px;
+}
+#medicines{
+	width: 97%;
+	height: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding:7px;
+}
+.form-text{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	background: white;
+	padding: 20px 40px;
+	outline: none;
+	color: black;
+	transition: 0.5s;
+	font-family: monospace;
+	font-size:20px;
+}
+.form-text: focus{
+	box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.form-text{
+	resize: none;
+	height: 120px;
+}
+.form-btn{
+	margin-top: 50px;
+	margin-bottom: 40px;
+	float: right;
+	border: 0;
+	background: #34495e;
+	color: #fff;
+	padding: 12px 50px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.form-btn:hover{
+	background: #6495ED;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 16px;
+	position: absolute;
+	top:20px;
+	right:81px;
+}
+a:hover{
+	background-color: #ddd;
+	color: black;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.fa fa-home{
+	background-color: #f1f1f1;
+	color: black;
+	border-radius: 5px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Registration Form </title> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="patientregistration.css">
+</head>
+<body> 
+<a href="homepage.html" class="fa fa-home"> Home </a>
+<h1> Registration Form </h1>
+<div class="register">
+<h2> Register Here </h2>
+<form method="POST" id="register" action="patientconnection.php">
+<label> Name: </label><br>
+<input type="text" name="rname" id="name" placeholder="Enter your name" required><br><br>
+<label> Address: </label><br>
+<input type="text" name="raddress" id="address" placeholder="Enter your address" required><br><br>
+<label> Ward No: </label><br>
+<input type="number" name="rward" id="wardno" placeholder="Enter your ward no." required><br><br>
+<label> Age: </label><br>
+<input type="number" name="rage" id="age" placeholder="Enter your age" required><br><br>
+<label> Gender: </label><br>
+<input type="radio" name="rgender" id="Male" value="Male" required>
+<label for="male">Male</label>
+<input type="radio" name="rgender" id="Female" value="Female" required>
+<label for="female">Female</label>
+<input type="radio" name="rgender" id="Others" value="Others" required>
+<label for="others">Others</label><br><br>
+<label for="phone">Phone no: </label><br>
+<input type="number" name="rphone" id="phoneno" placeholder="Enter your phone no." required><br><br>
+<label> Father's Name: </label><br>
+<input type="text" name="rfather" id="fathersname" placeholder="Enter your father's name" required><br><br>
+<label> Mother's Name </label><br>
+<input type="text" name="rmother" id="mothersname" placeholder="Enter your mother's name" required><br><br>
+<label> Email: </label><br>
+<input type="email" name="remail" id="email" placeholder="Enter your email" required><br><br>
+<label> Enter Password: </label><br>
+<input type="password" name="renterPass" id="password" required><br><br>
+<label> Confirm Password: </label><br>
+<input type="password" name="rconfirmPass" id="password" required><br><br><br>
+<input type="submit" value="Submit" id="sub">
+</form>
+</div>
+</body>
+</html>
+
+
+

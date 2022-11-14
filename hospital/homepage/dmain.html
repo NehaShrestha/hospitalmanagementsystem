@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Doctor Main Page </title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="dmain.css">
+</head>
+<body>
+<a href="homepage.html" class="fa fa-home"> Log Out </a>
+<form action="dmain.php" method="POST">
+<div class="textbox">
+	<input type="text" name="rname" id="name" placeholder="Patient Name" required>
+</div>
+<div class="textbox">
+	<input type="email" name="remail" id="email" placeholder="Email Address" required>
+</div>
+<div class="textbox">
+	<input type="name" name="rdoc" id="doctorname" placeholder="Doctor Name" required>
+</div>
+<div class="textbox">
+	<input type="date" name="rdate" id="date" placeholder="Today's Date" required>
+</div>
+<div class="pres">
+<label> Prescription </label><br>
+<textarea name="rpres" class="form-text" id="prescription" required></textarea>
+<label> Medicines </label><br>
+<textarea name="rmed" class="form-text" id="medicines" required></textarea>
+<input type="submit" class="form-btn" value="Submit">
+</div>
+</form>
+</body>
+</html>
